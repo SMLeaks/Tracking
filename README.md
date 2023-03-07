@@ -11,3 +11,4 @@
 
 * Steam Announcements/Events
     * Add BBCode to Markdown (etc.) (https://github.com/SMLeaks/Tracking/issues/1)
+    * Add Commit Comments (New Announcements, Updated Announcment Body, etc.)
