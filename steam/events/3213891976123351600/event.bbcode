@@ -1,0 +1,222 @@
+[i]Updated May 30[/i]
+[list]
+[*] New quest tracker HUD
+[*] Added support for adding/removing dependencies to other mods in the Mod Tool
+[*] Other mod dependencies show up in Tile Editor and World Builder when launched from the Mod Tool
+[*] Fixed a crash that occurred when generating icons for blueprints in a custom game mod with translation files
+[*] Fixed bug where part names in mods would fail to fallback to English when translation to selected language was missing
+[*] Fixed crashes where json files would contain invalid numbers
+[*] Fixed builder guide icon positioning
+[*] Electric Engine powers up significantly faster
+[/list]
+--------------------------------------------------------
+
+[i]Updated May 25[/i]
+[list]
+[*] Added support for modded log book entries in custom games
+[*] Fixed bug where too long names for mods and blueprints would not upload to steam
+[*] Fixed bug with health bars in challenge mode showing up for clients
+[*] Fixed crash when attempting to weld joints against joints
+[*] Fixed bug with missing fires and other script data when entering old worlds
+[*] Fixed bug with modded items having the wrong sorting order in inventory
+[*] Fixed bug with sm.joint.setTargetLength not working with pistons added in survival
+[*] Fixed bug when carrying objects and got incorrect interaction prompts
+[*] Fixed bug where menu music would continue to play when starting a custom game
+[/list]
+--------------------------------------------------------
+
+[i]Updated May 24[/i]
+[list]
+[*] Added prefabs to the Mod Tool Tile Builder
+[*] Horn GUI improvements
+[*] Blueprints can again have flat shapes but should no longer cause crashes
+[*] Fixed a crash that occurred when blueprints had invalid joint json
+[*] Fixed a crash that occurred when renderable json files had an invalid root object
+[*] Added option in script API to stop effects with stopBreakSustain, this allows some looping sound effects to end correctly when triggered from scripts
+[/list]
+--------------------------------------------------------
+
+[i]Updated May 23[/i]
+[list]
+[*] Added blueprints to the Mod Tool Tile Editor (Must be in $CONTENT_DATA/Blueprints) 
+[*] Added tools, projectiles, melee attacks och harvestables to Blocks and Parts mods
+[*] Fixed a crash related to the Controller
+[*] Fixed crash that occurred when projectiles were fired in an area triggers projectile hit callback
+[/list]
+--------------------------------------------------------
+
+[i]Updated again May 20[/i]
+[list]
+[*] Added a temporary quickfix for looping sounds. (A better fix coming next week)
+[*] Waypoint nodes available in the in-game Tile Editor
+[/list]
+--------------------------------------------------------
+
+[i]Updated May 20[/i]
+[list]
+[*] Added nodes to the Tile Editor
+[*] Custom Game mods can define their own nodes
+[*] Crash fixes
+[/list]
+--------------------------------------------------------
+
+[i]Updated May 19[/i]
+[list]
+[*] The horn GUI is back (still work in progress)
+[*] Added scrollbar functions to the script API
+[*] Fixed a crash that occurred when generating icons in the Mod tool
+[*] Added setWorldPosition to character userdata in the script API
+[*] Dropped carried items are now placed in the same place as when built, they should now be much less likely to fall through the ground
+[*] Fixed a crash that occurred when writing a chat message too early from a script 
+[*] Kinematics support added to the default mod terrain script
+[*] Tutorial GUI now displays the correct keybinding
+[*] New tutorial added to the crash site bucket
+[*] Updated quest texts
+[/list]
+--------------------------------------------------------
+
+[i]Updated May 18[/i]
+[list]
+[*] Mods can now set character name tags with setNameTag
+[*] Added shapes to the Tile Editor
+[*] Added sm.gu.translateLocalizationTags to script API
+[*] Fixed more API calls not correctly translating $CONTENT_DATA
+[*] Fixed a crash that occurred when spamming the take picture button in the blueprint export GUI
+[*] Fixed a crash that could occur when closing GUIs of some interactable parts after the part was destroyed
+[*] Fixed a crash that could happen when a client is joining a game into a world that is being destroyed (challenge mode)
+[/list]
+--------------------------------------------------------
+
+[i]Updated May 17[/i]
+[list]
+[*] Added a low-quality option for World Builder.
+[*] Added free placement menu toggle (previously only available on Shift + Click)
+[*] Added brush size menu (previously only available on Shift + Scroll)
+[*] Added options in editors to delete tiles and worlds
+[*] Added more world sizes to the world builder
+[*] Fixed custom tiles not showing up in tile browser when making a custom game world
+[*] Fixed crashes for clients playing multiplayer challenge mode
+[*] Fixed incorrect path reading in Lua API
+[*] Fixed save dialogs in the mod tool
+[*] Creating new assets sets in the mod tool now working
+[/list]
+--------------------------------------------------------
+
+[i]Updated May 16[/i]
+[list]
+[*] Fixed a crash related to the builder guide
+[*] Fixed player hands being rendered incorrectly
+[*] Fixed fix tree crash
+[*] Fixed a crash that occurred when having incorrect item translation files in a mod
+[*] Fixed particle emitters being hidden incorrectly in the particle editor
+[*] Fixed a particle editor shutdown crash
+[*] Updated Visual Studio runtime
+[/list]
+--------------------------------------------------------
+
+[i]Updated May 13[/i]
+[list]
+[*] Fixed an issue where with the builder guide visualization that could lead to a crash
+[*] Some items that disappeared from the creative inventory in the previous update are back
+[/list]
+--------------------------------------------------------
+
+[i]Updated May 12[/i]
+[list]
+[*] Fixed a crash when using non-english new save filename
+[*] Fixed a crash when mods use an inventory smaller than the hotbar size
+[*] Fixed a bug where the game settings dropdown would stay after closing the menu
+[*] Fixed num pad and other special key button prompts spacing and font color
+[*] Fixed a crash when displaying visualization and switching worlds
+[*] Fixed auto-generation for effect sets in the mod tool
+[*] Fixed a bug where mods could not dofile() script files in the core content directories
+[*] Fixed an interaction bug with the logbook
+[*] Fixed broken tutorial GUI in some resolutions
+[*] Survival tutorial car builder guide part is hidden in creative mode
+[*] Fixed script errors
+[/list]
+--------------------------------------------------------
+
+[i]Updated May 10[/i]
+[list]
+[*] Preview image generation fix for Worlds and Tiles
+[*] Fixed a crash when starting the game with an invalid menu blueprint
+[*] Fixed a crash when sending an AreaTrigger to a client
+[*] Fixed bug where player spawn position would be wrong when loading in a warehouse
+[*] Fixed issues with file referencing in mods
+[*] Fixed GetHarvestableForCell script callback for mods
+[*] Other mod scripting fixes
+[*] Quest script fixes
+[*] Other crash fixes
+[/list]
+--------------------------------------------------------
+
+Hi Mechanics!
+
+We are closing in on a new update release with a lot of nice new content.
+Today we are rolling out the first test on the test branch mainly for the mod makers.
+The Mod Tool has been updated, making it a lot more open and flexible.
+If you are a mod maker, you will find a lot of new features on the test branch of the Mod Tool.
+We also updated the scripting API reference pages:
+https://scrapmechanic.com/api/index.html
+As some of you might have noticed. We have added two new categories to the Workshop as well.
+World and Custom Games.
+
+Worlds: This is where mechanics can upload custom creative worlds to the workshop.
+Custom Games: This is where mod makers can upload modded survival game modes as well as completely own custom games.
+
+Keep in mind that there will be bugs and issues on the test branch at this stage.
+But it will get more stable as we keep updating it with new content and fixes in the coming days.
+
+[b]Warning! Do not open saves from the current version of the game on the test branch since things are still a bit unstable and they might break.
+Mods updated with the new Mod Tool will not work in the current version of the game.
+Worlds and Challenges created in the test will not work in the current version of the game either.
+[/b]
+Game Improvements:[list]
+[*] New Tile Editor GUI
+[*] Added a lot of Tile Editor features
+[*] New World Builder GUI
+[*] Added a lot of World Builder features
+[*] Worlds can be uploaded to Steam Workshop
+[*] Multiplayer join settings added
+[*] Tutorial Quests added to Survival Mode
+[*] Builder Guide part added to Survival Mode
+[*] Loading time optimizations
+[*] Ragdoll optimizations
+[*] Debris optimizations (new debris system)
+[*] Particle quality improvements
+[*] Lighting improvements
+[*] Visualization shader improvement
+[/list]Mod Tool:[list]
+[*] Custom Game mods added to the Mod Tool
+[*] Tile Editor standalone version for editing Custom Game content added to the Mod Tool
+[*] World Builder standalone version for editing Custom Game content added to the Mod Tool
+[*] New Particle Editor added to the Mod Tool
+[/list]Modding support:[list]
+[*] Tools and Weapons
+[*] NPC Characters
+[*] Kinematics
+[*] Harvestables
+[*] Game Script
+[*] World Scripts
+[*] Terrain Scripts
+[*] Projectiles
+[*] Melee attacks
+[*] Effects
+[*] Terrain ground materials
+[*] Decals usable in Tile Editor
+[*] Major Script API update
+[/list]Coming soon:[list]
+[*] Foliage clutter
+[*] Prefabs usable in Tile Editor
+[*] Blueprints usable in Tile Editor
+[*] Adding nodes in Tile Editor
+[*] Loading Blocks and Parts mods to custom games
+[/list]
+Stay creative!
+
+Here is how you access the test:
+[img]{STEAM_CLAN_IMAGE}/11471984/2262edd2c87b4da8a0b89d835e307c8dae0a3515.png[/img]
+
+[b]For all the latest news, follow us on[/b]
+[url=https://twitter.com/ScrapMechanic]Twitter[/url]

@@ -1,0 +1,143 @@
+[img]{STEAM_CLAN_IMAGE}/11471984/01459a509dc273d3bb90923b30eeb2e98eed2880.png[/img]
+
+[b]Hi Mechanics![/b]
+
+This test turned in to a pretty long one as you might have noticed. We ended up doing a lot of small fixes. But also because we wanted to add a few more things for testing before we drop it.
+Today the 30th of October we finally added the new Beacon interactive part that we’ve been teasing on our Twitter. The Beacon will help you set navigation waypoints in the world to make exploration much easier. It can now be crafted in the Craftbot! Some other highlights are fixes to the UI and main menu that we didn’t find time to add for the survival release. There is still more work to be done to the UI but we are getting there. We also fixed a bigger issue where the frame rate dropped for no clear reason for some players after playing longer sessions in survival. That should not happen anymore.
+We hope to move all of these things to the main game very soon!
+
+Here is the full list!
+
+[i]Updated November 11[/i]
+[list]
+[*]The crosshair will now light up when pointing on an object that can be interacted with or picked up.
+[*]Fixed an issue that could cause the character to arrive in the warehouse before the interior was loaded when using the elevator.
+[*]Modded bearings, springs and pistons from mods that are not loaded will now default to standard ones.
+[*]Fixed a bug that caused glow worms to be placed as a block if selecting a spudgun in the hotbar while swimming.
+[*]Very large creations built on the ground will not become loose when the ground they are attached to is unloaded.
+[*]Fixed weld tool rendering issues that could occur in some cases.
+[*]Russian font fixes.
+[*]Fixed an issue that caused the icons for lift creation exports to be offset.
+[*]Fixed an issue with the reward item rendering in the dressbot.
+[*]Minor gui fixes.
+[/list]
+
+[i]Updated November 4[/i]
+[list]
+[*]Creative games can now be started even if it contains blocks or parts from a mod that is not loaded. The missing blocks and parts will be replaced by a removable error-object.
+[*]Fixed an issue that caused only the 3 first ingredients to be visible in the Craftbot.
+[*]Creations with a gas tank containing fuel can now be saved on the Lift.
+[*]Fixed an issue where thrusters connected to both a gas tank and a button/driver's seat did not load correctly on the lift.
+[*]Fixed an issue that caused clients to not see the loot-projectile when dropping items on the ground.
+[*]The large challenge sensor will now trigger even if the challenge has not started.
+[*]Fixed a rare crash related to blocks and parts removing grass from the terrain.
+[*]Fixed a rare crash that could occur when using some tools in a warehouse elevator.
+[*]Fixed GUI issues with the big challenge piston and the old creative piston.
+[*]Fixed an issue that caused only 9 mod items to be shown per row instead of 10 in the inventory mod tab.
+[*]Added missing "[E] Use" text when looking at upgradable sensors.
+[*]Fixed a crash that occurred when a modded part tried to upgrade into a non-existing part.
+[/list]
+
+[i]Updated October 30[/i]
+[list]
+[*]Added a beacon that can be crafted in the craftbot.
+[*]Optimized code that finds blocks that enemies till try to destroy in raids.
+[*]Optimized Woc corn finding.
+[*]Component kits can be used in challenge builder.
+[*]Potato ammo can be used in challenge builder. Use /enable_ammo_consumption chat command to enable ammo consumption.
+[*]Gas and Battery can be used in challenge builder. Use /enable_fuel_consumption chat command to enable fuel consumption.
+[*]Use /enable_ammo_consumption chat command to enable ammo consumption.
+[*]Added a quest system for future content.
+[*]Fixed an issue related to the the optimized water calculation that caused lower framerate that increased over time.
+[*]Fixed freezes that could occur when shutting down a game.
+[*]Fixed issues with the terrain loading that could cause some terrain to not load properly. This could for instance cause water to not work.
+[*]Fixed a bug that put items in the hotbar when destroying objects in creative mode and challenge builder.
+[*]Fixed an issue that could cause GUI placement issues in windowed mode.
+[*]Level 5 Driver's seat/saddle settings are now saved in blueprints.
+[*]Items in hotbar 2 and 3 can now be swapped.
+[*]Load game date being one month off and formatting fix.
+[*]Main menu camera animations.
+[*]Elevator audio fixes
+[*]New lift save and load blueprint GUIs
+[*]Dressbot GUI improved rendering and effects.
+[*]Consumable item tab for craftbot and inventory.
+[*]Craftbot tooltip shows the names of ingredients.
+[*]Level 5 Driver's Seat GUI fixes.
+[*]Replaced GUIs that had the old style.
+[*]Letter spacing added to font rendering.
+[*]A lot of visual GUI fixes and interaction fixes.
+[/list]
+
+[i]Updated September 11[/i]
+[list]
+[*] Putting soil or blocks on the ground removes grass. The grass will grow back when they are removed.
+[*] If all crops are destroyed by a raid, the bots will destroy random parts.
+[*] Fixed an issue in the test where tools thrown on the ground in challenge mode disappeared.
+[*] Multiple lifts and sledgehammers caused by a previous bug in the test are removed when joining a game.
+[/list]
+
+[i]Updated September 7[/i]
+[list]
+[*] Fixed a bug in the test where the sledgehammer and lift would disappear if moved with shift-click into a chest. (Players who lost them will get new ones when loading/joining a world.)
+[*] Reduced the chances that Totebots and Haybots will destroy high durability materials.
+[/list]
+
+[b]Hi Mechanics![/b]
+
+More important fixes and improvements are on the way! But you can already now help us test them in the latest test branch. Interactive parts from survival are now added to Creative mode with the exception of the Water cannon and the Vacuum pump. These will be added later together with a water update to creative mode that will come soon. We also improved the ragdoll physics a lot to reduce frame drops. So creative traps that push a lot of bots in to a ragdoll state should work much better now!
+
+Patch notes:
+[list]
+[*] A majority of interactive parts from survival mode are now added to creative mode.
+[*] All parts in creative mode are now usable in challenge builder.
+[*] Character ragdolls are synchronized to clients.
+[*] Fixed character jitter when driving on clients.
+[*] Optimized character ragdolls.
+[*] The corn can now be broken by creation collisions.
+[*] Farmbots react to sounds.
+[*] Glowsticks now emits more light when held in the hand.
+[*] Fixed an issue where shapes did not correctly block explosions.
+[*] Totebots and Haybots will try to destroy blocks and parts with all durability levels.
+[*] Haybots will try to attack more often where they would otherwise try to chase the player.
+[*] Explosions can no longer be triggered by character collision.
+[*] The sawblade can now saw logs welded to the same creation.
+[*] Increased durability on some stackable items from 1 to 2.
+[*] Improved block remove interaction.
+[*] Shift-click to put gas/battery in engine improvement.
+[*] Added a brightness slider in the display settings.
+[*] Added a framerate cap selection in the display settings.
+[*] The handbook nows up in first and third person.
+[*] Chests show an animation when opened.
+[*] New effects when hitting trees and burnt trees.
+[*] The weld tool does no longer show a visualization of removed branches when welding logs.
+[*] Added names to clothes.
+[*] Minor warehouse collision optimization.
+[*] Warehouse elevator sound fixes.
+[*] Fixed a crash that occurred if a client joined the game while a character was seated.
+[*] Fixed a bug that caused the fertilizer to not be spent when fertilizing plants.
+[*] Fixed fertilizer first-person effect placement.
+[*] Fixed a bug that allowed the lift to be placed on dynamic creations.
+[*] Fixed a bug that could cause KO-bag icons to get stuck.
+[*] Fixed a bug that could cause the character to go into T-pose when holding an edible item.
+[*] Fixed a bug that caused the light to not be updated when the intensity was changed or when painted.
+[*] Fixed a bug in challenge builder that could cause an extra builder bot to get stuck.
+[*] Fixed a crash that could happen if a corrupt game file was selected in the menu.
+[*] Fixed a bug that could cause shapes to levitate after removing the shape it was resting on.
+[*] Fixed an issue that could cause the sensor setting to be incorrectly updated when edited.
+[*] Fixed an issue that could cause the timer setting to be incorrectly updated when edited.
+[*] Fixed an issue that could cause the totebot head setting to be incorrectly updated when edited.
+[*] Fixed a bug that caused the builder bot hands to be shown in first person when testing a challenge.
+[*] Fixed an animation issue on the big red farmbot when ragdolled while aiming.
+[*] Fixed a sync issue with the electric engine when connected to a button or switch.
+[/list]
+
+Keep in mind that worlds used on the test branch will not open in the main branch until this update is officially out.
+
+Here is how you jump on the test branch to check out the new stuff. 
+[img]{STEAM_CLAN_IMAGE}/11471984/2262edd2c87b4da8a0b89d835e307c8dae0a3515.png[/img]
+
+More fixes and improvements coming soon!
+
+[b]For all the latest news, follow us on[/b]
+[url=https://twitter.com/ScrapMechanic]Twitter[/url]
+[url=https://www.facebook.com/scrapmechanic/]Facebook[/url]
