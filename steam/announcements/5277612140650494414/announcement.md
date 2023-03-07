@@ -1,0 +1,7 @@
+[list]
+*Auto saving issue fixed.
+*Save files can now contain non-english characters.
+*If the game crashes while something is on the lift, the lifted object will no longer float in the air.
+*Fixed the most common crashes.
+*Various bugfixes.
+[/list]

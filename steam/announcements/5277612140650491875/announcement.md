@@ -1,0 +1,25 @@
+**Hi Mechanics**
+
+
+Time for another beta test. We have made a bunch of small fixes in this one.
+For example being able to see the mechanics names above the head when playing multiplayer. We also noticed Mechanics often slipping off the lift when they try to lift themselves up. Now the Mechanic will have a better grip when standing on the lift.
+
+Here is the full list:
+
+[list]
+*Fixed a bug where the player could not remove connections from a seat with 10 connections.
+*The lift will no longer push the player off when raised.
+*Fixed a Weld Tool bug.
+*Added smooth camera zooming.
+*New Sledgehammer cursor appears when within range of something you can hit.
+*Added preview for tools in the inventory.
+*Added text messages for the Radio; "This Radio is connected to a Button/Switch/Sensor".
+[/list]
+
+If you like to help us test it out, you can do so now by following these steps:
+![](http://i.imgur.com/3RWu68O.png)
+
+**For all the latest news, follow us on** 
+
+[Facebook](https://www.facebook.com/scrapmechanic/)
+[Twitter](https://twitter.com/ScrapMechanic)

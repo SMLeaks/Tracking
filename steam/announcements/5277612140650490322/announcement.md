@@ -1,0 +1,18 @@
+Here at Axolot we are working hard to make sure our new engine upgrade will be as smooth as possible. Here are a few fixes that we made so far:
+Fixed in Hotfix 3:
+[list]
+*Fixed a crash at startup or when loading games related to the character.
+*Larger saves should now load.
+*Added checking for modded blocks and parts that the game doesn't currently have loaded.
+[/list]
+Fixed in Hotfix 2:
+*Fixed a crashed that occurred on startup on some graphics cards.
+
+Fixed in Hotfix 1:
+[list]
+*Fixed a crash that new players experienced when starting a game.
+*Connect tool numbers fixed.
+*Weld Tool collision check fix.
+*Max engine, thruster, bearing, etc.. settings removed.
+*Invisible block fix.
+[/list]
