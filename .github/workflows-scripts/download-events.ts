@@ -1,3 +1,5 @@
+import { ensureFile } from "https://deno.land/std@0.178.0/fs/ensure_file.ts";
+
 const COUNT = 100;
 
 let events = []
@@ -38,9 +40,12 @@ while (running) {
 
 if(!error) {
     for (const event of events) {
-        await Deno.mkdir(`./steam/events/${event.gid}`, {
-            recursive: true
-        });
+        await Promise.all([
+            ensureFile(`./steam/events/${event.gid}/event.bbcode`),
+            ensureFile(`./steam/events/${event.gid}/event.jsondata.json`),
+            ensureFile(`./steam/events/${event.gid}/event.json`)
+        ]);
+
         await Promise.all([
             Deno.writeTextFile(`./steam/events/${event.gid}/event.bbcode`, event.announcement_body.body, {
                 create: false
