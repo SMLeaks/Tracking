@@ -10,4 +10,4 @@
 ## Planned Features
 
 * Steam Announcements/Events
-    * Add BBCode to Markdown (etc.) (#1)
+    * Add BBCode to Markdown (etc.) (https://github.com/SMLeaks/Tracking/issues/1)
