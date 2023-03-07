@@ -19,8 +19,9 @@ while (running) {
             error = true;
             break;
         }
-        console.log(data.events);
-        // events.push(...data.events);
+        for (const event of data.events) {
+            events.push(event);
+        }
         if (data.events < COUNT) {
             running = false;
             break;
