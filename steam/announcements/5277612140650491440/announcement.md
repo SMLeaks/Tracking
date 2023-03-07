@@ -1,0 +1,50 @@
+![](http://i.imgur.com/FyvelEV.gif)
+
+**Hi Mechanics!**
+
+
+We are excited to let you know that both the Logic Gate and the Timer are finally in Scrap Mechanic!
+
+We are very happy with how they turned out and look forward to see what you mechanics will build with these powerful items!
+Both of these in combination allow you to build some really remarkable logic based creations. For example, we know that some of you are already having a go at building calculators and even computers!
+
+**Logic Gate** 
+
+The Logic Gate lets you build creations with multiple inputs. A basic example is when you want two Switches to open one door. There is now a step by step guide in the Handbook showing you how to set this up.
+
+**Timer** 
+
+The Timer lets you delay the interaction between two interactive parts. For example between a Switch and a Controller. It works great in combination with the Logic Gate for more complex creations. 
+
+Here is the full update list:
+[list]
+*Added Logic Gate.
+*Added Timer.
+*Connection points now highlight when targeted with the Connect Tool.
+*Thrusters should no longer apply its force twice at low framerates. This should also improve synchronization when mechanics are flying together in multiplayer.
+*All interactive parts now operate at a fixed tickrate.
+*Thruster sound effect tweak.
+*Fixed a crash that could occur when selecting tools in the inventory.
+*Fixed a crash that could occur when pressing E on the Lift.
+*Fixed a bug where the Weld Tool did not trigger particles and sound effects.
+*Fixed a rare crash related to collision sound calculations.
+[/list]
+
+Changes based on feedback from mechanics:
+[list]
+*Completely remade how the Timer displays the signal. It now gives the mechanic a much more detailed feedback. It's much more useful now!
+*Logic Gate does not have a connection limit anymore. We decided to change that for more flexibility.
+*You can now place objects on the Logic Gate screen.
+*Switches now reset when put on the lift again.
+[/list]
+
+![](http://i.imgur.com/fLpIkYm.gif)
+
+**Oh! and one more thing!**
+
+Not related to this update. We would like to take this opportunity to update you on the engine improvements we are working on. Good progress is being made daily. It will finally fix most of the crash issues for players. It will also improve a lot of the fps issues when building complex creations. We estimate that the new engine update will be available for testing in the middle of September. We will keep you updated! 
+
+**For all the latest news, follow us on** 
+
+[Facebook](https://www.facebook.com/scrapmechanic/)
+[Twitter](https://twitter.com/ScrapMechanic)

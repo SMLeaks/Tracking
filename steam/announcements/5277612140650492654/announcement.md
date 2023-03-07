@@ -1,0 +1,28 @@
+![](http://i.imgur.com/W099y5P.png)
+**Hi Mechanics!**
+
+
+Time for another awesome little update.
+A lot of you symmetry-loving Mechanics have been asking for a new Driver’s seat that is 3 blocks wide. So we made the Driver’s saddle! Great for more compact vehicles and it’s also light weight.
+We also added a new feature to the Lift that lets you rotate your creation with Q before placing it down. Really useful for bigger flying machines. 
+
+Here are the patch notes:
+[list]
+* Added Driver’s Saddle 
+* Added Saddle
+* When you pick up creations on the lift, you can now rotate them with Q before placing the lift down.
+* Better collision detection for the lift placement.
+* Seat GUI should no longer get stuck when ejecting from the seats.
+* Made the glass windows more clear from the inside.
+* Fixed a bug caused by the introduction of volume sliders for the Totebot Heads.
+* Made sensors more responsive.
+[/list]
+Keep in mind that these small updates we do weekly or bi-weekly do not affect the work we do on optimization, bigger requested features or survival mode. 
+The weld tool is just behind the corner!
+
+We at Scrap Mechanic HQ wish you a creative weekend!
+
+**For all the latest news, follow us on** 
+
+[Facebook](https://www.facebook.com/scrapmechanic/)
+[Twitter](https://twitter.com/ScrapMechanic)

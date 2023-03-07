@@ -1,0 +1,7 @@
+[list]
+*Fixes to resolution issues on high resolution displays.
+*Better GUI scaling when switching resolution.
+*Fixed an audio related crash.
+*Added a traffic cone building part.
+[/list]
+![](http://i.imgur.com/7P6QfHk.png)

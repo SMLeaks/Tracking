@@ -1,0 +1,38 @@
+![](https://imgur.com/39EOK61.png)
+
+**Hi Mechanics!**
+
+
+We have a nice improvement update today with some needed fixes. 
+For example. The creation that you finish the challenges with will now be saved if you replay that challenge. But there is more! Here is the full list of all the fixes we’ve done! 
+
+**Update List:**
+
+[list]
+*Creations that beat a challenge will now be saved in the start zone next time the player replays the challenge.
+*Added more building parts in some challenges to give players more building options.
+*Music from Creative mode is no longer playing in Challenge mode. 
+*The Challenge mode ball now has an animated glow effect.
+*F1, F2, F3 now changes hotbar row selection. It can still be changed with Alt+1, Alt+2 and Alt+3.
+*Popup menus can now be closed with the escape key.
+*Fixed an issue with the sensor noticeable at high velocity.
+*The game no longer shows a gray screen when loading up a challenge for the first time.
+*Fixed some minor issues with the lift and the weld tool.
+*Fixed a crash that could happen when someone was joining the game while creations were being modified.
+*Fixed a crash that could happen when joining a game while creations were being modified.
+*Fixed a crash that could randomly occur for clients.
+*Made some memory allocation fixes.
+*Fixed an issue with some DLL files.
+*Better error checking for mods in the mod tool.
+*Some new scripting features.
+*Fixed some texture cache issues for mods that should result in faster load times.
+*Fixed a crash that happened after the game failed to start because of missing graphics drivers and other graphics related issues.
+*Fix for shader loading when running the game on Linux using Wine.
+[/list]
+
+We will be back soon. Next up! the Challenge builder!
+
+**For all the latest news, follow us on**
+
+[Facebook](https://www.facebook.com/scrapmechanic/)
+[Twitter](https://twitter.com/ScrapMechanic)

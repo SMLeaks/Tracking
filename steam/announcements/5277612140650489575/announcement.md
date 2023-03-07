@@ -1,0 +1,44 @@
+**Hi Mechanics!**
+
+
+(Updated 11 April)
+
+More patch notes:
+[list]
+*Added Test C with 20% friction that mechanics can try out as well. 
+*Tweaks to reduce bumpiness is only active on wheels
+*Made an optimization for the ragdoll
+*Bugsplat is now on in the test branches.[/list]
+
+----------------------------------------------------------------------------------------------------------
+
+We just uploaded a new test.
+This time we put some time into improving the driving. 
+Players often got into a bumpy ride even on flat terrain.
+With our new fixes, the vehicle control is much more precise between the wheels and the ground and vehicle should handle better. However, it’s important to keep in mind that this is an improvement, but it’s still not perfect yet.
+
+Now we need your help with testing!
+We have also done some changes to the ground friction and the friction in general. So we have made two test branches this time with different friction settings that you can try out! 
+
+Test_A has the same friction that is in the game currently.
+Test_B has a friction that is 40% higher than Test A.
+Let us know which one you like better when driving your vehicles!
+
+If you like to help us test our changes, you can do so now by following these steps:
+![](http://i.imgur.com/3RWu68O.png)
+
+Here is the full patch list:
+[list]
+*We have improved the driving with less bumpy ground.
+*(Test B only) Tweaked the friction for better grip.
+*Fixed crashes when exporting creations.
+*Fixed a startup crash.
+*Workshop download error handling.
+*The blueprint search in the lift UI is now improved with better search.[/list]
+
+Thanks for reading Mechanics! Let us know what you think!
+
+**For all the latest news, follow us on**
+
+[Facebook](https://www.facebook.com/scrapmechanic/)
+[Twitter](https://twitter.com/ScrapMechanic)

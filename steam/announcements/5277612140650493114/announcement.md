@@ -1,0 +1,12 @@
+Hi Mechanics!
+
+We have a new patch for you today!
+This one should fix a few issues that some players have reported.
+
+Here are the patch notes:
+[list]
+*The controller should no longer break your creations when logging in to a world. This does not fix creations that are already broken previously by this bug. 
+*Bearings controlled by the controller should now behave better.
+*Objects can no longer be removed while seated.
+*"Use" [E] can now be used to close the interface of any interactive part.
+[/list]

@@ -1,0 +1,82 @@
+
+![](https://cdn.akamai.steamstatic.com/steamcommunity/public/images/clans//11471984/603024a52737dc0483b07166d8ea40652c91e337.png)
+
+**Hi Mechanics!**
+
+
+It’s time to move all the things we tested into the game!
+Thanks for all the amazing feedback! Here are some of the new things in this update. Cotton plants can now be planted on your farm. You can trade for Cotton seeds at the Farmer hideout. We decided to add these seeds since some players had a hard time finding cotton in their generated world. We will do the same with pigment flowers in the future. We’ve also added the Chemical container to the Craftbot. It’s not very useful at the moment, but we have things in the works where it will have an important function. Lastly, we also did a lot of balancing tweaks based on the community feedback! 
+
+
+*Updated July 1*
+**Hotfix 1**
+
+We added a small hotfix that fixes a crash introduced in the patch
+*Fixed a crash that could occur when holding and dragging a part on a creation that is destroyed
+
+
+Here is the update list:
+[list]
+*Networking improvements with better object prioritization
+*Fixed an issue that could cause networking events to lag behind on clients
+*Optimized some interactive parts to use less network bandwidth
+*A new interactive part, chemical container is available in the craftbot
+*Cotton can be grown in soil
+*Cotton seeds can now be bought at the hideout trader
+*Battery can be crafted in the craftbot
+*The button and switch costs the same to craft in the mobile craftbot as in the simple stationary one
+*Slightly reduced the price of the drill and saw blade at the hideout trader
+*Reduced fuel/battery cost for very heavy loads
+*Tools can be thrown on the ground
+*Glowsticks now emit a small amount of light when held in the hand
+*It does no longer cost paint to erase paint with the paint tool
+*Explosives destroy up to durability level 7
+*More crude oil from oil geysers
+*More glue clams when breaking clams
+*Cardboard is cheaper to craft
+*Wood block 1 requires less scrap wood to craft
+*Concrete requires less stone, but more water and chemicals to craft
+*Fertilizer can be crafted from seeds
+*Paint costs fewer flowers to craft
+*The scrap metal from haybots will not fly away from where the haybot was destroyed as often
+*The big red farmbots now run away before despawning when daylight comes after a raid
+*Tapebots sometimes shoot random parts when raiding
+*Increased the time before wocs and glow worms despawn if not fed
+*The smaller stone chunks are easier to destroy with the drill
+*Reduced the weight of the water cannon
+*Added lights to ruins
+*The range of the packing station automatic fruit/vegetable selection is much more forgiving
+*Reduced the speed of projectiles fired from the Vacuum Pump
+*Added new sound effects when the mechanic is hungry or thirsty
+*Added new sound effect when almost out of breath while diving
+*Spudling gun windup sound effect added
+*Mod parts now show up in all creative inventory tabs and are searchable
+*Fixed a crash that occurred on shutdown when playing the game in full screen with steam overlay turned off
+*Fixed a crash that occurred when switching resolution with mods loaded
+*Fixed an issue where failed blueprint exports would cause an error message to show at game startup
+*Fixed an issue that could cause the leaves of trees to not get their correct color in multiplayer
+*Fixed an issue causing parts to be attached to suspensions and pistons even though another part already was attached
+*Fixed a bug that caused the gas engine to not get the efficiency upgrade applied until game reload
+*Fixed a bug that caused parked vehicles to spend fuel or batteries
+*Fixed an issue that caused the vacuum pump to not be able to place blocks on the same creation
+*The button and switch collision is a little bit bigger so they do not as easily get stuck in walls
+*Fixed skinning issues on some mechanic character faces
+*Fixed some rotation steps on warehouse parts when building
+*Mechanic station collision fixes
+*Fixed an autumn forest ruin to have the correct ground material
+*Adjusted the stone positions of a lot of cliffs where the player could get stuck
+*Adjusted spawn position of embers when destroying burnt trees
+*Fixed a bug that caused loot crates to respawn in the starting area
+*Minor inventory GUI bug fixes
+*Added 2 bearings to Challenge 7
+
+[/list]
+
+Time for us to get back to work on more improvements as well as the next chapter for survival mode! We can’t wait to share more info on that soon! It’s going to be amazing!
+
+**For all the latest news, follow us on**
+
+
+[Twitter](https://twitter.com/ScrapMechanic)
+
+[Facebook](https://www.facebook.com/scrapmechanic/)

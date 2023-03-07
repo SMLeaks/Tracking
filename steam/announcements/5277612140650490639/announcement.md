@@ -1,0 +1,109 @@
+**Hi Mechanics!** 
+
+
+First! we would like to thank everyone who has sent us bug reports. Thanks to you we can finish things faster and make it better! 
+
+So now that the updated engine is up on the test branch we plan to update it frequently with fixes and more features. At first the engine might not feel so different. But all the awesome stuff will start to be apparent as we add more things. So let’s take a look at what we've added today.
+
+Here are some of the new improvements:
+
+[b]December 17th (0.2.0 Test 10):
+[/b][list]
+*Added dynamic lights for testing
+*Suspension resistance setting added for testing
+*Fixed UV-Animations for Timer/Logic Gates
+*Remade and updated all block textures 
+*Updated the inventory icons
+*Steering Wheel Animations are now working
+*Bearings/Suspension are now paintable
+*Remade the big wheel
+*Glass windows now render correctly
+*Glass now renders correctly in workshop and inventory GUI
+*Vsynch now works
+*A lot of bug fixes and optimisations[/list]
+
+**December 2nd (0.2.0 Test 9):**
+
+[list]
+*Added workshop to the test! You can now load and save creations
+*Glass block is now transparent
+*Added item preview to inventory
+*Fixed a crash that could occur when exiting a game.
+*You can now jump in to a friends world from a single player game without any issues and the other way around. 
+*Added a different reflection map to the flat world.
+*Random bug fixes with the base material rendering
+*Optimized updating of blocks to minimize slowdown when building on big creations 
+[/list]
+
+**November 22th (0.2.0 Test 8):**
+
+[list]
+*Fixed a bug that would randomly crash the game at startup or show a black screen.
+*Fixed a bug that sometimes made it impossible to weld things together that should have been possible.
+*Fixed a bug that allowed objects to be welded into each other; aka glitch weld.
+*Added names above the players and also improved it so it follows the mechanic better.
+[/list]
+**November 18th (0.2.0 Test 7):**
+
+[list]
+*Added depth of field to the new engine.
+*Fixed rendering issues with the male mechanic while seated.
+*The environment map is back.
+*Fixed a random crash related to some optimizations.
+*Particles are rendered using our new particle engine.
+*Background colors in loading screen fixed.
+*GUI interaction scales with the window.
+*Added support for multiple block texture tiling.
+*Added font caching.
+[/list]
+**November 11th (0.2.0 Test 6):**
+
+[list]
+*We have optimized our rendering more! The game should now run smoother.
+*Optimized the internal code structures. This should make it better at handling a lot of blocks and parts.
+*Fixed a world naming bug.
+[/list]
+**November 9th (0.2.0 Test 5):**
+
+[list]
+*Added grass and other ground cluttering.
+*Fixed rendering issues with the terrain surface.
+*Fixed some invisible letters when typing a new game name.
+[/list]
+**November 3rd (0.2.0 Test 4):**
+
+[list]
+*Fixed a crash that happened when the terrain was loading in the main menu.
+*Crash fixed caused by the particle system. Often triggered with the Paint Tool.
+[/list]
+**November 2nd (0.2.0 Test 3):**
+
+[list]
+*Added more optimization. The game is merging boxes and now even cylinders resulting in less collision checks (Yay!)
+*Fixed incorrect normals on blocks.
+*No more highlight flickering when pointing with the Lift or the Weld Tool.
+[/list]
+**November 1st (0.2.0 Test 2):**
+
+*Fixed a crash with the Weld Tool.
+
+We also forgot to mention three smaller improvements that were in the first test:
+[list]
+*The lever on the engine now moves when setting speed.
+*Added pressed state when Radio is activated.
+*The Paint Tool now shows the selected color on the tool itself.
+[/list] 
+
+[h1]This is how you access the test branch![/h1]
+
+![](http://i.imgur.com/3RWu68O.png)
+
+We appreciate all the bug reports so keep them coming!
+
+Time for us to get back to work. 
+Till next time Mechanics!
+
+**For all the latest news, follow us on** 
+
+[Facebook](https://www.facebook.com/scrapmechanic/)
+[Twitter](https://twitter.com/ScrapMechanic)
