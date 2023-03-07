@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  download-events:
+  download-announcements:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -15,10 +15,8 @@ jobs:
         uses: denoland/setup-deno@v1
         with:
           deno-version: v1.31.1
-      - name: 'Prepare Directories'
-        run: mkdir -p steam/events
-      - name: 'Download Events'
-        run: deno run --allow-all .github/workflows-scripts/download-events.ts
+      - name: 'Download Announcements'
+        run: deno run --allow-all .github/workflows-scripts/download-announcements.ts
       - name: '`git status`'
         id: git-status
         run: echo ::set-output name=modified::$(if [ -n "$(git status --porcelain)" ]; then echo "true"; else echo "false"; fi)

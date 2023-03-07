@@ -41,22 +41,22 @@ while (running) {
 if(!error) {
     for (const event of events) {
         await Promise.all([
-            ensureFile(`./steam/events/${event.gid}/event.bbcode`),
-            ensureFile(`./steam/events/${event.gid}/event.jsondata.json`),
-            ensureFile(`./steam/events/${event.gid}/event.json`)
+            ensureFile(`./steam/announcements/${event.gid}/announcement.bbcode`),
+            ensureFile(`./steam/announcements/${event.gid}/announcement.jsondata.json`),
+            ensureFile(`./steam/announcements/${event.gid}/announcement.json`)
         ]);
 
         await Promise.all([
-            Deno.writeTextFile(`./steam/events/${event.gid}/event.bbcode`, event.announcement_body.body, {
+            Deno.writeTextFile(`./steam/announcements/${event.gid}/announcement.bbcode`, event.announcement_body.body, {
                 create: false
             }),
-            Deno.writeTextFile(`./steam/events/${event.gid}/event.jsondata.json`, event.jsondata, {
+            Deno.writeTextFile(`./steam/announcements/${event.gid}/announcement.jsondata.json`, event.jsondata, {
                 create: false
             })
         ]);
         delete event.announcement_body.body;
         delete event.jsondata;
-        await Deno.writeTextFile(`./steam/events/${event.gid}/event.json`, JSON.stringify(event, null, 2), {
+        await Deno.writeTextFile(`./steam/announcements/${event.gid}/announcement.json`, JSON.stringify(event, null, 2), {
             create: false
         });
     }
