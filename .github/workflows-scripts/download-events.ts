@@ -19,7 +19,8 @@ while (running) {
             error = true;
             break;
         }
-        events.push(...data.events);
+        console.log(data.events);
+        // events.push(...data.events);
         if (data.events < COUNT) {
             running = false;
             break;
