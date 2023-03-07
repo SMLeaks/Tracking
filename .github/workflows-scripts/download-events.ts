@@ -19,10 +19,12 @@ while (running) {
             error = true;
             break;
         }
-        for (const event of data.events) {
-            events.push(event);
+        if (!Array.isArray(data.events)) {
+            running = false;
+            break;
         }
-        if (data.events < COUNT) {
+        events.push(...data.events);
+        if (data.events.length < COUNT) {
             running = false;
             break;
         }
@@ -36,10 +38,21 @@ while (running) {
 
 if(!error) {
     for (const event of events) {
-        await Deno.writeTextFile(`steam/events/${event.gid}/event.bbcode`, event.announcement_body.body);
+        await Deno.mkdir(`./steam/events/${event.gid}`, {
+            recursive: true
+        });
+        await Promise.all([
+            Deno.writeTextFile(`./steam/events/${event.gid}/event.bbcode`, event.announcement_body.body, {
+                create: false
+            }),
+            Deno.writeTextFile(`./steam/events/${event.gid}/event.jsondata.json`, event.jsondata, {
+                create: false
+            })
+        ]);
         delete event.announcement_body.body;
-        await Deno.writeTextFile(`steam/events/${event.gid}/event.jsondata.json`, event.jsondata);
         delete event.jsondata;
-        await Deno.writeTextFile(`steam/events/${event.gid}/event.json`, JSON.stringify(event));
+        await Deno.writeTextFile(`./steam/events/${event.gid}/event.json`, JSON.stringify(event, null, 2), {
+            create: false
+        });
     }
 } 
