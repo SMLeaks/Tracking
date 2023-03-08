@@ -1,47 +1,39 @@
-![](http://i.imgur.com/9Cnu9jG.png)
-
-**Hi Mechanics!**
-
-This time, we’ve been focusing on continuing to optimize the game further. We’ve spent a lot of time listening to what improvements and additions you all wanted to see and are pleased to say that we managed to add some of your requests in this update! We’ve also polished up the thrusters and added some fun new parts that we know you’ll get creative with.
-Let’s go over things in more detail.
-
-**-Bathtub**
-
-So you may have noticed that we have a sink and a toilet, but we couldn’t help thinking that when it came to bathrooms, something was missing. That’s right, we’ve added a bathtub. We all know you work very hard on your creations, so we thought you’d earned yourselves a bit of R&R. As we’re very generous hosts, when you choose to sit in a bath, your mechanic will be treated to a nice relaxing bubble bath. That is of course, unless you’ve decided to go all 2bath2furious and attach thrusters to it so you can fly it full speed across the terrain. Remember, even wash-time can be fun-time. 
-
-**-Follow cameras** 
-
-Whenever we read through Scrap Mechanic discussions, we always come across requests for a camera that follows when your vehicle turns. Well, happy belated (or super early) new year people, because you’ve now got yourself a follow camera as well as a strict follow camera that also follows vertically. You can set the camera in the settings or change it while seated with the Ctrl key! We really like it, so please give it a go and let us know what you think! 
-
-**-Toggle Hotbar**
-
-As master mechanics ourselves, we know how annoying it can be when you fill up the hotbar and it takes that little bit longer to access everything. Well, now you can rotate between three hotbars at any time, simply by pressing Alt - Q and Alt - 1/2/3 for direct access. We’ve seen a few of you asking for this so we hope it will come in handy when you’re busy building creations with a lot of different parts!
-
-**-Optimization** 
-
-While you all know that the new engine is finally in the game, we still feel that there is a lot we can do to optimize the game further. As a first step, we’ve made some rendering optimizations that dramatically improve slowdowns when placing blocks on really large creations. We’re happy to say that it works a lot smoother now. Remember though, this is just the tip of the optimization iceberg, so strap yourself in, because there’s a whole lot more where that came from!
-
-**-Thruster fire**
-
-Thanks to our lovely new particle engine, we can finally implement the kind of particle effects we always imagined for Scrap Mechanic. As we’ve been so impressed with this engine, our plan is to redo all the particles in the game from scratch, bringing them up to the same standard of visual quality that we’re aiming for with the upcoming survival mode. 
-The first glimpse of these nice new particles in action is in the brand new thruster fire. Thanks to the addition of dynamic lighting, your thrusters will not only look a lot more realistic, but they will even trigger dust when close to the ground.
-Like all good mechanics, sometimes we also have to go back and give older parts some extra love. 
-
-**-Mug** 
-
-We noticed a lot of players are using pipes as mugs when they build houses. 
-It’s creative and it’s how a true scrap mechanic should drink his coffee. However, as much as we like our beverages piping hot, we thought we’d treat you and add a proper mug as a building part. This one comes with a symbol that you might have seen before. What could it stand for? Hopefully it will all make sense in Survival mode...... hmm.
-
-
-Please keep in mind that updates like this do not affect the work we do on survival mode. These updates are made to give you some fun new things to play with while we work on survival mode and bigger features.
-
-Up next we will be dishing out the details on the official block mod support.
-We are also working on a very special new interactive part that we have a hunch some of you might be excited about. 
-More on that later.
-
-Thanks for reading mechanics, that’s it for now!
-
-**For all the latest news, follow us on** 
-
-[Facebook](https://www.facebook.com/scrapmechanic/)
+![](http://i.imgur.com/9Cnu9jG.png)<br/>
+<br/>
+**Hi Mechanics!**<br/>
+This time, we’ve been focusing on continuing to optimize the game further. We’ve spent a lot of time listening to what improvements and additions you all wanted to see and are pleased to say that we managed to add some of your requests in this update! We’ve also polished up the thrusters and added some fun new parts that we know you’ll get creative with.<br/>
+Let’s go over things in more detail.<br/>
+<br/>
+**-Bathtub**<br/>
+So you may have noticed that we have a sink and a toilet, but we couldn’t help thinking that when it came to bathrooms, something was missing. That’s right, we’ve added a bathtub. We all know you work very hard on your creations, so we thought you’d earned yourselves a bit of R&R. As we’re very generous hosts, when you choose to sit in a bath, your mechanic will be treated to a nice relaxing bubble bath. That is of course, unless you’ve decided to go all 2bath2furious and attach thrusters to it so you can fly it full speed across the terrain. Remember, even wash-time can be fun-time. <br/>
+<br/>
+**-Follow cameras** <br/>
+Whenever we read through Scrap Mechanic discussions, we always come across requests for a camera that follows when your vehicle turns. Well, happy belated (or super early) new year people, because you’ve now got yourself a follow camera as well as a strict follow camera that also follows vertically. You can set the camera in the settings or change it while seated with the Ctrl key! We really like it, so please give it a go and let us know what you think! <br/>
+<br/>
+**-Toggle Hotbar**<br/>
+As master mechanics ourselves, we know how annoying it can be when you fill up the hotbar and it takes that little bit longer to access everything. Well, now you can rotate between three hotbars at any time, simply by pressing Alt - Q and Alt - 1/2/3 for direct access. We’ve seen a few of you asking for this so we hope it will come in handy when you’re busy building creations with a lot of different parts!<br/>
+<br/>
+**-Optimization** <br/>
+While you all know that the new engine is finally in the game, we still feel that there is a lot we can do to optimize the game further. As a first step, we’ve made some rendering optimizations that dramatically improve slowdowns when placing blocks on really large creations. We’re happy to say that it works a lot smoother now. Remember though, this is just the tip of the optimization iceberg, so strap yourself in, because there’s a whole lot more where that came from!<br/>
+<br/>
+**-Thruster fire**<br/>
+Thanks to our lovely new particle engine, we can finally implement the kind of particle effects we always imagined for Scrap Mechanic. As we’ve been so impressed with this engine, our plan is to redo all the particles in the game from scratch, bringing them up to the same standard of visual quality that we’re aiming for with the upcoming survival mode. <br/>
+The first glimpse of these nice new particles in action is in the brand new thruster fire. Thanks to the addition of dynamic lighting, your thrusters will not only look a lot more realistic, but they will even trigger dust when close to the ground.<br/>
+Like all good mechanics, sometimes we also have to go back and give older parts some extra love. <br/>
+<br/>
+**-Mug** <br/>
+We noticed a lot of players are using pipes as mugs when they build houses. <br/>
+It’s creative and it’s how a true scrap mechanic should drink his coffee. However, as much as we like our beverages piping hot, we thought we’d treat you and add a proper mug as a building part. This one comes with a symbol that you might have seen before. What could it stand for? Hopefully it will all make sense in Survival mode...... hmm.<br/>
+<br/>
+<br/>
+Please keep in mind that updates like this do not affect the work we do on survival mode. These updates are made to give you some fun new things to play with while we work on survival mode and bigger features.<br/>
+<br/>
+Up next we will be dishing out the details on the official block mod support.<br/>
+We are also working on a very special new interactive part that we have a hunch some of you might be excited about. <br/>
+More on that later.<br/>
+<br/>
+Thanks for reading mechanics, that’s it for now!<br/>
+<br/>
+**For all the latest news, follow us on** <br/>
+[Facebook](https://www.facebook.com/scrapmechanic/)<br/>
 [Twitter](https://twitter.com/ScrapMechanic)

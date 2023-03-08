@@ -1,7 +1,6 @@
-[list]
-*Fixes to GUI related crashes.
-*Fixed main menu GUI text scaling issues.
-*Fixes to "unsigned integer out of signed int range" error.
-*Excessive log messages are suppressed while looking for a solution to the underlying issue.
-*Added OpenGL version check at startup.
-[/list]
+<br/>
+* Fixes to GUI related crashes.<br/>
+* Fixed main menu GUI text scaling issues.<br/>
+* Fixes to "unsigned integer out of signed int range" error.<br/>
+* Excessive log messages are suppressed while looking for a solution to the underlying issue.<br/>
+* Added OpenGL version check at startup.<br/>

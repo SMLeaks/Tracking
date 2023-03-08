@@ -107,15 +107,24 @@ if (!error) {
         ]);
 
         const bbcode = event.announcement_body.body.replaceAll('\r\n', '\n').replaceAll('\u2028', '\n')
-        const markdown = bbcode
+        let markdown = bbcode
+            .replaceAll('<', '&lt;')
+            .replaceAll('>', '&gt;')
+            .replaceAll('\n', '<br/>\n')
             .replace(/\{STEAM_CLAN_IMAGE\}/g, 'https://cdn.akamai.steamstatic.com/steamcommunity/public/images/clans/')
-            .replace(/\[img\](.*?)\[\/img\]/g, '![]($1)')
-            .replace(/\[b\](.*?)\[\/b\]((\s*?)(\n))?/g, '**$1**$3$4$4')
-            .replace(/\[i\](.*?)\[\/i\]/g, '*$1*')
-            .replace(/\[url=(.*?)\](.*?)\[\/url\]/g, '[$2]($1)')
-            .replace(/\[previewyoutube=(.*?)(;.*?)?\](.*?)\[\/previewyoutube\]/, '<iframe src="https://www.youtube.com/embed/$1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>')
-            .replace(/\[\*\]/g, '*')
-            .replace(/\[list\]\n?(.*?)\n?\[\/list\]/, '$1\n');
+            // .replace(/\[\/img\]\n\[(img|b)\]/gi, '[/img]\n\n[$1]')
+            // .replace(/(\S)\n\[img\]/gi, '$1\n\n[img]')
+            .replace(/\[img\](.*?)\[\/img\]/gi, '![]($1)')
+            // .replace(/\[\/(b|i|img)\]\n(\S)/gi, '[/$1]\n\n$2')
+            .replace(/\[b\](.*?)\[\/b\]/gsi, '**$1**')
+            .replace(/\[i\](.*?)\[\/i\]/gsi, '*$1*')
+            .replace(/\[u\](.*?)\[\/u\]/gsi, '<u>$1</u>')
+            .replace(/\[h([1-6])\](.*?)\[\/h[1-6]\]/gsi, '<$1>$2</$1>')
+            .replace(/\[url=(.*?)\](.*?)\[\/url\]/gi, '[$2]($1)')
+            .replace(/\[previewyoutube=(.*?)(;.*?)?\](.*?)\[\/previewyoutube\]/gi, '<iframe src="https://www.youtube.com/embed/$1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>')
+            .replace(/\[\*\]\s*/g, '* ')
+            .replace(/\[list\]\n?/g, '')
+            .replace(/\n?\[\/list\]/g, '')
 
         await Promise.all([
             Deno.writeTextFile(`./steam/announcements/${event.gid}/announcement.bbcode`, bbcode, {

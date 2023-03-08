@@ -1,5 +1,4 @@
-[list]
-*Fixed a common startup crash.
-*Fixed a crash caused by the controller interface.
-*Fixed a crash related to characters in steam names.
-[/list]
+<br/>
+* Fixed a common startup crash.<br/>
+* Fixed a crash caused by the controller interface.<br/>
+* Fixed a crash related to characters in steam names.<br/>
