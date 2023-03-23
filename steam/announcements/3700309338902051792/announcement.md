@@ -1,11 +1,8 @@
 ![](https://i.imgur.com/tFOQheW.png) <br/>
 <br/>
-<br/>
 **Calling all Mechanics!**<br/>
-<br/>
 We are back! After spending the last few months in the content mines, it's time for us to report on our latest progress. While we’d love to show off details from the next chapter, It’s getting increasingly harder to do so without spoilers, but rest assured: you will get to see all of it on release.<br/>
 That’s why we decided to do a bot reveal special for this devblog instead, so here’s a peek at just some of the new bots:<br/>
-<br/>
 <br/>
 <br/>
 <br/>
@@ -16,9 +13,7 @@ That’s why we decided to do a bot reveal special for this devblog instead, so 
 ![](https://i.imgur.com/D5DuNon.gif)<br/>
 ![](https://i.imgur.com/JoGXfek.gif)<br/>
 <br/>
-<br/>
 **Yellow Totebot**<br/>
-<br/>
 Get ready to re-adjust your base walls or crank your vehicle’s engine a bit higher when you see this new bot jumping into the scene!<br/>
 Originally designed as a fully autonomous power trowel, the Yellow Totebot has since gone renegade. Now, it stomps its way across the planet, eager to flatten any Mechanic it sees, no matter how many ceilings and floors it has to smash in the process.<br/>
 <br/>
@@ -31,10 +26,7 @@ Originally designed as a fully autonomous power trowel, the Yellow Totebot has s
 ![](https://i.imgur.com/OPhPDVO.gif)<br/>
 <br/>
 **Blue Totebot**<br/>
-<br/>
-Just when you thought it was safe to get back in the water…<br/>
-Originally designed for offshore drilling, the Blue Totebot has since decided to become an underwater torpedo instead. To make matters worse, it can also move fast enough on land to catch up with any Mechanics that aggravate it, so watch where you dive! <br/>
-<br/>
+Just when you thought it was safe to get back in the water…Originally designed for offshore drilling, the Blue Totebot has since decided to become an underwater torpedo instead. To make matters worse, it can also move fast enough on land to catch up with any Mechanics that aggravate it, so watch where you dive!<br/>
 <br/>
 <br/>
 <br/>
@@ -43,7 +35,6 @@ Originally designed for offshore drilling, the Blue Totebot has since decided to
 ![](https://i.imgur.com/pRkxjwB.gif)<br/>
 ![](https://i.imgur.com/KHKo4aS.gif)<br/>
 ![](https://i.imgur.com/iEAl2NK.gif)<br/>
-<br/>
 <br/>
 **Red Totebot**<br/>
 We’ve teased this clanker before, but we’ve never shown him in action until now. Originally designed to clear away mine shafts using explosives, some of the Red Totebots have since wandered up to the surface.<br/>
@@ -75,13 +66,11 @@ Following the disastrous firmware update that made it run amok, however, this cl
 <br/>
 <br/>
 <br/>
-<br/>
 ![](https://i.imgur.com/tJwVnlQ.png)<br/>
 ![](https://i.imgur.com/Zq2mMfT.png)<br/>
 ![](https://i.imgur.com/RMZzM00.png)<br/>
 ![](https://i.imgur.com/ItnLJ9F.gif)<br/>
 ![](https://i.imgur.com/WJpG0jL.gif)<br/>
-<br/>
 <br/>
 **Grow labs** <br/>
 Ruin runs are great, but we’ve been working hard on populating the game world with additional cool places to explore and loot during the course of your Survival mode adventure.<br/>
@@ -90,16 +79,12 @@ One of those places are the underground Grow labs! Fit to burst with Green and Y
 <br/>
 <br/>
 <br/>
-<br/>
 ![](https://i.imgur.com/OXmH5pf.jpg)<br/>
 ![](https://i.imgur.com/yDWaAh8.png)<br/>
 <br/>
-<br/>
 **Ore Prospector** <br/>
-<br/>
 Get more out of your ore with this latest addition to the game, the Ore Prospector: a machine designed both for Mechanics that love to build automated crafting chains, as well as those that like to do things manually.<br/>
 With its help, you will be able to filter the finely ground gravel produced by the Ore Crusher, in order to retrieve rare materials like gold and more!<br/>
-<br/>
 <br/>
 <br/>
 <br/>
@@ -107,20 +92,16 @@ With its help, you will be able to filter the finely ground gravel produced by t
 ![](https://i.imgur.com/6w8kC0A.gif)<br/>
 ![](https://i.imgur.com/aihFUVW.gif)<br/>
 <br/>
-<br/>
 **New Glass**<br/>
 We haven’t just been working on Scrap Mechanic’s content. After introducing the new and improved lighting system we mentioned in the last devblog, our elite team of graphics engineers have been working on updating the game’s visuals according to modern standards.<br/>
-This time, we’re excited to introduce our newest glass shader, which allows in-game glass to shine and distort like the real thing, so your buildings, vehicles and other creations can look better than ever before. And that’s just one of the graphical updates we’ve got in the works! <br/>
-<br/>
+This time, we’re excited to introduce our newest glass shader, which allows in-game glass to shine and distort like the real thing, so your buildings, vehicles and other creations can look better than ever before. And that’s just one of the graphical updates we’ve got in the works!<br/>
 <br/>
 <br/>
 <br/>
 <br/>
 ![](https://i.imgur.com/tzoybav.png)<br/>
 <br/>
-<br/>
 **General rebalance and Item Schematics** <br/>
-<br/>
 We have also been working hard on rebalancing Survival Mode’s gameplay; specifically, the crafting recipes and how items are obtained during the course of the game, so the gameplay can flow better than ever before.<br/>
 Our latest addition to Scrap Mechanic’s features are Schematics. When found, these collectible items will allow your Craftbots to create additional items.<br/>
 Furthermore, we’ve been focusing on changing the way farming raids work, while reworking the existing hunger and hydration bars to be less annoying. More on these later!<br/>
@@ -128,10 +109,8 @@ Furthermore, we’ve been focusing on changing the way farming raids work, while
 <br/>
 <br/>
 <br/>
-<br/>
 ![](https://i.imgur.com/MgZYNDV.png)<br/>
 ![](https://i.imgur.com/X92vj7k.png)<br/>
-<br/>
 <br/>
 **Woc Outfit**<br/>
 Introducing the wackiest outfit we’ve made (so far): the Woc outfit, complete with a corncob themed backpack!<br/>
