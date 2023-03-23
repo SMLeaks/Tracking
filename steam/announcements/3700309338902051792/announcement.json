@@ -18,7 +18,10 @@
     "headline": "Devblog 25 is here!",
     "posttime": 1679591029,
     "updatetime": 1679591411,
-    "tags": [],
+    "tags": [
+      "mod_reviewed",
+      "ModAct_1400956464_1679594939_0"
+    ],
     "language": 0,
     "hidden": 0,
     "forum_topic_id": "5219148750788306708",
@@ -33,7 +36,7 @@
   "broadcaster_accountid": 0,
   "forum_topic_id": "5219148750788306708",
   "news_post_gid": "0",
-  "rtime_mod_reviewed": 0,
+  "rtime_mod_reviewed": 1679594939,
   "featured_app_tagid": 0,
   "referenced_appids": [],
   "build_id": 0,
