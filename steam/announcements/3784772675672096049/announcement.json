@@ -19,7 +19,9 @@
     "posttime": 1699032041,
     "updatetime": 1699032041,
     "tags": [
-      "patchnotes"
+      "patchnotes",
+      "mod_reviewed",
+      "ModAct_1400956464_1699037033_0"
     ],
     "language": 0,
     "hidden": 0,
@@ -35,7 +37,7 @@
   "broadcaster_accountid": 0,
   "forum_topic_id": "3941272762728607718",
   "news_post_gid": "0",
-  "rtime_mod_reviewed": 0,
+  "rtime_mod_reviewed": 1699037033,
   "featured_app_tagid": 0,
   "referenced_appids": [],
   "build_id": 0,
