@@ -39,6 +39,14 @@ We are still hard at work on the next chapter!<br/>
 Stay creative,<br/>
 The Scrap Mechanic Team<br/>
 <br/>
-**For all the latest news, follow us on**<br/>
-[Twitter](https://twitter.com/ScrapMechanic)<br/>
+*Fixes Dec 6 2024 (0.7.1):*<br/>
 <br/>
+* Increased max networked velocities of objects<br/>
+* Disabled max velocity limitation in single player<br/>
+* Fixed ragdoll sync issue<br/>
+* Fixed missing shadows on some parts<br/>
+* Kinematic visuals not updating fixed<br/>
+* Restored collision changes on Concave Wedge and Metal Storage Ramp<br/><br/>
+<br/>
+**For all the latest news, follow us on**<br/>
+[Twitter](https://twitter.com/ScrapMechanic)
