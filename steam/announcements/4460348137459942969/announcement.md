@@ -39,7 +39,7 @@ We are still hard at work on the next chapter!<br/>
 Stay creative,<br/>
 The Scrap Mechanic Team<br/>
 <br/>
-*Fixes Dec 6 2024 (0.7.1):*<br/>
+*Fixes Dec 6 (0.7.1):*<br/>
 <br/>
 * Increased max networked velocities of objects<br/>
 * Disabled max velocity limitation in single player<br/>
@@ -47,10 +47,15 @@ The Scrap Mechanic Team<br/>
 * Fixed missing shadows on some parts<br/>
 * Kinematic visuals not updating fixed<br/>
 * Restored collision changes on Concave Wedge and Metal Storage Ramp<br/><br/>
-*Fixes Dec 9 2024 (0.7.2):*<br/>
+*Fixes Dec 9 (0.7.2):*<br/>
 <br/>
-* Fixed a net code issue where save files with long play time would fail to sync game data.<br/>
-* Fixed day counting in the Log book for game hosts.<br/><br/>
+* Fixed a net code issue where save files with long play time would fail to sync game data<br/>
+* Fixed day counting in the Logbook for game hosts<br/><br/>
+*Fixes Dec 10 (0.7.3):*<br/>
+<br/>
+* Improved slanted parts physics calculation<br/>
+* Switched Metal Storage Ramp collision back to slant<br/>
+* Fixed issue with oversized slants in blueprints<br/><br/>
 <br/>
 **For all the latest news, follow us on**<br/>
 [Twitter](https://twitter.com/ScrapMechanic)
