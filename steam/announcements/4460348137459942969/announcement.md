@@ -53,9 +53,9 @@ The Scrap Mechanic Team<br/>
 * Fixed day counting in the Logbook for game hosts<br/><br/>
 *Fixes Dec 10 (0.7.3):*<br/>
 <br/>
-* Improved slanted parts physics calculation<br/>
-* Switched Metal Storage Ramp collision back to slant<br/>
-* Fixed issue with oversized slants in blueprints<br/><br/>
+* Improved wedge parts physics calculation<br/>
+* Switched Metal Storage Ramp collision back to wedge<br/>
+* Fixed issue with oversized wedges in blueprints<br/><br/>
 <br/>
 **For all the latest news, follow us on**<br/>
 [Twitter](https://twitter.com/ScrapMechanic)
